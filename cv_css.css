@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.top-container {
+    position: absolute;
+    background-color: rgba(85, 85, 251, 0.859);
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+    top: 30px;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+}
+
+.xp {
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+}
+
+.formations {
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(52, 52, 157);
+    color: white;
+    left: 30px;
+    width: 25%;
+    height: 100vw;
+    z-index: 2;
+}
+
+.sidebar-content {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.photo {
+    width: 70%;
+    height: auto;
+}
+
+.xp-container {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+}
+
+.parcours {
+    float: right;
+}
+
+.chemin {
+    height: 600px;
+    margin-right: 25px;
+}
+
+.chemin2 {
+    height: 200px;
+    position: absolute;
+    left: -5px;
+}
+
+.ecoles {
+    text-align: left;
+    float: right;
+    width: 600px;
+}
+
+.logo {
+    width: 20%;
+    margin-right: 25px;
+    float: right;
+}
+
+.logo2 {
+    width: 40%;
+    float: right;
+    margin-bottom: 50px;
+}
